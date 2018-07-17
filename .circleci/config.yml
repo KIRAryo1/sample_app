@@ -7,11 +7,11 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-       - image: circleci/ruby:2.5.1-node-browsers
-         environment:
-           RAILS_ENV: test
-           PGHOST: 127.0.0.1
-           PGUSER: root
+      - image: circleci/ruby:2.5.1-node-browsers
+        environment:
+          RAILS_ENV: test
+          PGHOST: 127.0.0.1
+          PGUSER: root
 
       - image: circleci/postgres:9.6.2-alpine
         environment:
