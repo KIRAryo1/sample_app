@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="1" skipped="0" failures="0" errors="0" time="0.257439" timestamp="2018-07-17T13:39:20+09:00" hostname="ryoichinoMacBook-Pro.local">
+<properties>
+<property name="seed" value="11499"/>
+</properties>
+<testcase classname="spec.features.login_spec" name="Login user can visit login page" file="./spec/features/login_spec.rb" time="0.256185"></testcase>
+</testsuite>
