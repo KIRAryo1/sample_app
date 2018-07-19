@@ -12,7 +12,6 @@
     },
     "RAILS_ENV": {
       "staging",
-      "required": true
     },
     "RAILS_LOG_TO_STDOUT": {
       "required": true
