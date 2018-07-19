@@ -1,0 +1,135 @@
+/* 変数定義 */
+body {
+  background: #fff;
+}
+article.print_page {
+  width: 210mm;
+  height: 297mm;
+  page-break-after: always;
+}
+article.print_page :last-child {
+  page-break-after: auto;
+}
+section {
+  clear: both;
+}
+section h1 {
+  font-size: 50%;
+  margin: 0;
+}
+section p {
+  margin: 0;
+  margin-left: 5mm;
+}
+table {
+  width: 100%;
+  border: solid 0.5mm #000;
+  border-collapse: collapse;
+  margin: 1mm 0;
+}
+table th {
+  text-align: center;
+  border: solid 0.5mm #000;
+}
+table td {
+  border: solid 0.5mm #000;
+}
+ul {
+  border-bottom: solid 0.5mm #000;
+  list-style: none;
+}
+ul :last-child {
+  border-bottom: none;
+}
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.ruby {
+  border-bottom: dashed 0.3mm #000;
+  width: 100%;
+}
+.ruby h1 {
+  float: left;
+  margin: 0;
+  margin-right: 5mm;
+}
+.ruby p {
+  font-size: 50%;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+.tel,
+.phone,
+.other_contact {
+  border: solid 0.5mm #000;
+}
+#header h1 {
+  font-size: 150%;
+  float: left;
+  margin: 0;
+}
+#header p {
+  font-size: 60%;
+  text-align: right;
+  width: 100%;
+}
+#box1 {
+  width: 70%;
+  border-style: solid;
+  border-width: 0.5mm;
+}
+#box1-1 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -o-box;
+  display: -ms-box;
+  box-orient: horizontal;
+}
+#name {
+  border-bottom: solid 0.5mm #000;
+  clear: both;
+}
+#name p {
+  margin-left: 5mm;
+}
+#birthday {
+  width: 80%;
+  border-right: solid 0.5mm #000;
+}
+#box2 {
+  width: 100%;
+  border: solid 0.5mm #000;
+}
+#post {
+  font-size: 80%;
+}
+#address {
+  border-bottom: solid 0.5mm #000;
+}
+#PR,
+#skill {
+  border: solid 0.5mm #000;
+  margin: 1mm 0;
+}
+#box3 {
+  border: solid 0.5mm #000;
+}
+#box3-1 #spouse {
+  float: left;
+}
+#box3-1 #supporting_duty {
+  overflow: auto;
+}
+#request {
+  border: solid 0.5mm #000;
+  margin: 1mm 0;
+}
+#request h1 {
+  border-bottom: solid 0.5mm #000;
+}
