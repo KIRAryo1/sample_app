@@ -10,9 +10,7 @@
     "RACK_ENV": {
       "required": true
     },
-    "RAILS_ENV": {
-      "required": true
-    },
+    "RAILS_ENV": "staging",
     "RAILS_LOG_TO_STDOUT": {
       "required": true
     },
