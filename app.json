@@ -2,8 +2,15 @@
   "name": "sample_app",
   "scripts": {
     "postdeploy": "bundle exec rails db:migrate"
+    "postdeploy": 'HOST="$HEROKU_APP_NAME.herokuapp.com"'
   },
   "env": {
+    "HEROKU_APP_NAME": {
+      "required": true
+    },
+    "HEROKU_PARENT_APP_NAME": {
+      "required": true
+    }
     "LANG": {
       "required": true
     },
