@@ -1,7 +1,7 @@
 {
   "name": "sample_app",
   "scripts": {
-    "postdeploy": "bundle exec rails db:migrate",
+    "postdeploy": "bundle exec rails db:migrate"
   },
   "env": {
     "HEROKU_APP_NAME": {
