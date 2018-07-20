@@ -9,6 +9,12 @@
     },
     "RACK_ENV": "staging",
     "RAILS_ENV": "staging",
+    "BASIC_AUTH_USERNAME": {
+      "required": true
+    },
+    "BASIC_AUTH_PASSWORD": {
+      "required": true
+    },
     "RAILS_LOG_TO_STDOUT": {
       "required": true
     },
