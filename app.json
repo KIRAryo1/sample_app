@@ -4,12 +4,10 @@
     "postdeploy": "bundle exec rails db:migrate"
   },
   "env": {
-    "HEROKU_APP_NAME": {
+    "INHERIT_THIS_CONFIG_VAR": {
       "required": true
     },
-    "HEROKU_PARENT_APP_NAME": {
-      "required": true
-    },
+    "DONT_INHERIT_THIS_CONFIG_VAR": "production",
     "LANG": {
       "required": true
     },
