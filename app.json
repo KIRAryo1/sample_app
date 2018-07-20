@@ -7,10 +7,12 @@
     "LANG": {
       "required": true
     },
-    "RACK_ENV": {
+    "RACK_ENV": "staging",
+    "RAILS_ENV": "staging",
+    "BASIC_AUTH_USERNAME": {
       "required": true
     },
-    "RAILS_ENV": {
+    "BASIC_AUTH_PASSWORD": {
       "required": true
     },
     "RAILS_LOG_TO_STDOUT": {
