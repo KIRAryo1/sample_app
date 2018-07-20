@@ -4,19 +4,11 @@
     "postdeploy": "bundle exec rails db:migrate"
   },
   "env": {
-    "INHERIT_THIS_CONFIG_VAR": {
-      "required": true
-    },
-    "DONT_INHERIT_THIS_CONFIG_VAR": "production",
     "LANG": {
       "required": true
     },
-    "RACK_ENV": {
-      "required": true
-    },
-    "RAILS_ENV": {
-      "required": true
-    },
+    "RACK_ENV": "staging",
+    "RAILS_ENV": "staging",
     "RAILS_LOG_TO_STDOUT": {
       "required": true
     },
